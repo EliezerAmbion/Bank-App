@@ -27,8 +27,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 0 0 5rem;
-  padding: 1rem;
+  padding: 1.5rem;
   background-color: #44a4f2;
 }
 .header-container h1 {
@@ -41,16 +40,12 @@ body {
   display: flex;
   justify-content: space-around;
   font-size: 1.4rem;
-  /* padding: 1rem; */
 }
 .header-nav-container li a {
-  padding: 0.2rem 1rem;
-  border-radius: 5px;
   cursor: pointer;
   color: black;
 }
 .header-nav-container li a:hover {
-  background-color: #44a4f2;
   color: aliceblue;
   transition: all 0.4s;
 }
@@ -98,7 +93,7 @@ body {
   padding: 1rem 1.5rem;
   box-shadow: 9px 9px 18px #94a9e4, -9px -9px 18px #ffffff;
   border-radius: 5px;
-  margin-top: 5rem;
+  margin-top: 8rem;
   background-color: #44a4f2;
   color: aliceblue;
 }
@@ -162,7 +157,7 @@ body {
 fieldset {
   width: 40vw;
   height: 60vh;
-  margin-top: 4rem;
+  margin-top: 7rem;
 }
 legend {
   text-align: center;
