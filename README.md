@@ -2,4 +2,4 @@
 
 A Basic Bank app using vanilla Javascript
 
-- [Best Practice](html/index.html)
+- [Bank App](html/index.html)

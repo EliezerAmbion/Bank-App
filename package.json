@@ -2,7 +2,7 @@
   "name": "bank-app",
   "version": "1.0.0",
   "description": "A Basic Bank app using vanilla Javascript",
-  "main": "index.html",
+  "main": "html/index.html",
   "scripts": {
     "start": "parcel html/index.html",
     "build": "parcel build html/index.html --out-dir ./dist"

@@ -5,6 +5,7 @@
   list-style: none;
   text-decoration: none;
   font-family: mont-reg;
+  color: #f1f2ff;
 }
 
 html {
@@ -14,8 +15,9 @@ html {
 
 body {
   width: 100vw;
-  background-color: #f5f6fd;
+  background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
 }
+
 .grid_wrapper {
   display: grid;
   grid-template-columns: repeat(3, 10% 40% 45%);
@@ -29,7 +31,7 @@ body {
   align-items: center;
   padding: 1rem;
   margin-bottom: 0.45em;
-  background-color: #44a4f2;
+  /* background-color: #44a4f2; */
 }
 .header-container h1 {
   font-size: 2rem;
@@ -44,11 +46,11 @@ body {
 }
 .header-nav-container li a {
   cursor: pointer;
-  color: black;
 }
 .header-nav-container li a:hover {
   color: aliceblue;
   transition: all 0.4s;
+  text-decoration: underline;
 }
 
 /* main links tab*/
@@ -93,8 +95,8 @@ body {
   flex-direction: column;
   font-size: 1.1rem;
   padding: 1rem 1.5rem;
-  box-shadow: 9px 9px 18px #94a9e4, -9px -9px 18px #ffffff;
-  border-radius: 5px;
+  box-shadow: 5px 5px 15px 0.5px rgba(255, 255, 255, 0.25);
+  border-radius: 0.5rem;
   margin-top: 8rem;
   background-color: #44a4f2;
   color: aliceblue;
@@ -241,4 +243,8 @@ footer img {
 }
 img {
   width: 20px;
+}
+
+input {
+  color: #000000;
 }
