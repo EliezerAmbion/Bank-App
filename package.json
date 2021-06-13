@@ -1,0 +1,23 @@
+{
+  "name": "bank-app",
+  "version": "1.0.0",
+  "description": "A Basic Bank app using vanilla Javascript",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel html/index.html",
+    "build": "parcel build html/index.html --out-dir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EliezerAmbion/Bank-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EliezerAmbion/Bank-App/issues"
+  },
+  "homepage": "https://github.com/EliezerAmbion/Bank-App#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
