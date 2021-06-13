@@ -27,11 +27,12 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 1.5rem;
+  padding: 1rem;
+  margin-bottom: 0.45em;
   background-color: #44a4f2;
 }
 .header-container h1 {
-  font-size: 1.9rem;
+  font-size: 2rem;
 }
 .header-nav-container {
   width: 20%;
@@ -52,8 +53,9 @@ body {
 
 /* main links tab*/
 .main-links-navbar {
-  height: 80vh;
-  border-right: 1px solid black;
+  height: 90vh;
+  border-right: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 0 0.5em;
 }
 .main-links-navbar ul {
   display: flex;
@@ -64,7 +66,7 @@ body {
 }
 .main-li {
   cursor: pointer;
-  padding: 1rem;
+  padding: 0.5rem 0.2rem;
 }
 .main-li:hover {
   background-color: #44a4f2;
