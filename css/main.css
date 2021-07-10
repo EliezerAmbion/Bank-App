@@ -5,7 +5,8 @@
   list-style: none;
   text-decoration: none;
   font-family: mont-reg;
-  color: #f1f2ff;
+  color: #404040;
+  /* color: #f1f2ff; */
 }
 
 html {
@@ -15,7 +16,8 @@ html {
 
 body {
   width: 100vw;
-  background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+  background-color: #5ca0f2;
+  background-image: linear-gradient(315deg, #5ca0f2 0%, #f5f7f6 74%);
 }
 
 .grid_wrapper {
@@ -42,13 +44,12 @@ body {
 .header-container ul {
   display: flex;
   justify-content: space-around;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
 }
 .header-nav-container li a {
   cursor: pointer;
 }
 .header-nav-container li a:hover {
-  color: aliceblue;
   transition: all 0.4s;
   text-decoration: underline;
 }
